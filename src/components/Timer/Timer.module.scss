@@ -1,0 +1,38 @@
+@import '../../styles/settings.scss';
+
+.timerButtonContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  padding: 20px;
+  margin: 0 20px;
+  background-color: $color-main;
+  font-family: $font-text;
+  color: $color-light;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  border: 3px solid $color-main;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 499px) {
+
+  .button {
+    padding: 18px;
+    font-size: 16px;
+    margin: 0 10px;
+  }
+}

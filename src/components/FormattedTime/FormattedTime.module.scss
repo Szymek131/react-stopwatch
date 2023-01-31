@@ -1,0 +1,16 @@
+@import '../../styles/settings.scss';
+
+.timer {
+  font-size: 96px;
+  font-family: $font-text;
+  color: $color-light;
+  padding: 20px;
+}
+
+@media screen and (max-width: 499px) {
+
+  .timer {
+    padding: 10px;
+    font-size: 56px;
+  }
+}
